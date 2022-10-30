@@ -1,3 +1,4 @@
-*.[o]
-*.[log]
-*.[md]
+*.o
+*.log
+*.md
+compile/
