@@ -11,3 +11,6 @@ compile: $(OBJS)
 
 entry_point.o: $(SRC)/entry_point.cpp $(SRC)/*.h 
 	g++ -$(OPT) -Wall -Wextra -c $(SRC)/entry_point.cpp -I $(EXT_SRC)
+
+clean:
+	rm *.o
