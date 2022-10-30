@@ -1,0 +1,5 @@
+compile/
+ext_src/
+*.log
+*.o
+*.md

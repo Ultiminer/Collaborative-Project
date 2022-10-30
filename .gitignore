@@ -1,5 +1,0 @@
-*.o
-*.log
-*.md
-compile/
-BasicConcepts/compile/Makefile
