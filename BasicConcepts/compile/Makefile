@@ -10,4 +10,4 @@ compile: $(OBJS)
 	./test_app.exe
 
 entry_point.o: $(SRC)/entry_point.cpp $(SRC)/*.h 
-	g++ -$(OPT) -Wall -Wextra -Werror -c $(SRC)/entry_point.cpp -I $(EXT_SRC)
+	g++ -$(OPT) -Wall -Wextra -c $(SRC)/entry_point.cpp -I $(EXT_SRC)
